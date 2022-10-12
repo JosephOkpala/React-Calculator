@@ -1,5 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { ThemeContext } from './Context';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
@@ -82,14 +81,11 @@ function App() {
     setCurrentValue(calculate);
   };
 
-  // const darkTheme = useContext(ThemeContext)
-  const [darkTheme, setDarkTheme] = useState(true);
-
   return (
-    <ThemeContext.Provider value={darkTheme}>
+    <div>
       <div className="main">
         <h1>Calculator</h1>
-        <button className="button">Dark Mode</button>
+        <button>Mode</button>
         <div className="container">
           <div className="calculator">
             <div className="output">{output}</div>
@@ -153,7 +149,7 @@ function App() {
           </div>
         </div>
       </div>
-    </ThemeContext.Provider>
+    </div>
   );
 }
 
