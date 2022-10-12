@@ -17,6 +17,10 @@ body {
   user-select: none;
 }
 
+div h1 {
+  text-align: center;
+}
+
 .container {
   height: 80vh;
   width: 50vh;

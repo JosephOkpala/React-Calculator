@@ -83,8 +83,8 @@ function App() {
 
   return (
     <div>
+      <h1>Calculator</h1>
       <div className="main">
-        <h1>Calculator</h1>
         <div className="container">
           <div className="calculator">
             <div className="output">{output}</div>
