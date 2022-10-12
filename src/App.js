@@ -85,7 +85,6 @@ function App() {
     <div>
       <div className="main">
         <h1>Calculator</h1>
-        <button>Mode</button>
         <div className="container">
           <div className="calculator">
             <div className="output">{output}</div>
